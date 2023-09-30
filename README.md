@@ -1,7 +1,5 @@
 # Portfolio Website
-Show your projects in a single place.
-
-**QUERA SUCKS**
+Always wanted to have a website to put my projects in it.
 
 I signed up for an event called LevelUp in quera, which is an educational website.
 
