@@ -11,6 +11,8 @@ So, I said to myself that I can finally put the time in and build a personal web
 
 Little did I know that this course is gooing to be horrible.
 
+They wanted us to build [this](https://websitedemos.net/personal-portfolio-02/?customize=template) website
+
 So, I'm gonna ignore unqualified instractors and do it myself.
 
 ## Codespaces
