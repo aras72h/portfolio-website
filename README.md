@@ -48,3 +48,56 @@ git commit -m "edited README.md"
 
 git push
 ```
+
+## Boilerplate index.html
+```
+mkdir src
+cd src
+code index.html
+```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-9xl font-bold underline">
+        hello, world
+    </h1>
+</body>
+
+</html>
+```
+
+## Design
+You can't start to code unless you have a design in hand.
+
+We have a template here, but it doesn't match our specific needs.
+
+We're going to design our layout in Figma.
+
+### Design & Coding Service
+- Header
+- Centered navbar
+- Projects
+- Contact
+- Social Networks
+- Services
+- Design 
+- Coding
+- Tech Stack
+- Footer
+
+
+
+
+
+
+
