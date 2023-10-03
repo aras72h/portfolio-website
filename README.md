@@ -83,20 +83,16 @@ We have a template here, but it doesn't match our specific needs.
 
 We're going to design our layout in Figma.
 
-### Design & Coding Service
 - Header
-- Centered navbar
+    - What is here
 - Projects
-- Contact
-- Social Networks
+    - 4 projects
 - Services
-- Design 
-- Coding
-- Tech Stack
+    - Design
+    - Coding
 - Footer
-
-
-
+    - Contact Information
+    - Social Media
 
 
 
