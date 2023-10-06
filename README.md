@@ -84,7 +84,11 @@ We have a template here, but it doesn't match our specific needs.
 We're going to design our layout in Figma.
 
 - Header
-    - What is here
+    - Navigation Menu
+        - Projects
+        - Blog posts
+        - Get in touch
+    - About me
 - Projects
     - 4 projects
 - Services
