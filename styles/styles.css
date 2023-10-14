@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter.ttf);
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    font-size: 16px;
+    /* outline: green solid 0.1rem; */
+}
+
+/* Layout */
+h2,
+p,
+nav {
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+li {
+    margin: 0.4rem;
+    padding: 0.4rem;
+    /* border: 1px solid black; */
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: flex;
+}
+
+/* Type */
+h2 {
+    font-size: 2.441rem;
+    font-weight: 700;
+}
+
+.skills li {
+    font-weight: 700;
+}
