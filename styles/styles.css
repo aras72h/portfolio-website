@@ -1,6 +1,21 @@
+/*** Initialize settings ***/
 @font-face {
     font-family: Inter;
     src: url(../assets/fonts/Inter.ttf);
+}
+
+:root {
+    --primary: #42C2FF;
+    --secondary: #EFFFFD;
+    --light: #fff;
+    --dark: #333;
+}
+
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    outline: #42C2FF solid 1px;
 }
 
 html {
@@ -21,46 +36,77 @@ a:active {
     color: inherit;
 }
 
-* {
-    font-size: 16px;
-    /* outline: green solid 0.1rem; */
-}
-
-/* Layout */
-h2,
-p,
-nav {
-    padding: 1rem;
-}
-
+/*** Layout ***/
 nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 1rem;
 }
-
 
 li {
-    margin: 0.4rem;
-    padding: 0.4rem;
-    /* border: 1px solid black; */
+    padding: 0 .4rem;
 }
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
+section header {
+    padding: 1rem 0;
+}
+
+section p {
+    padding: 1rem .4rem;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem 2rem;
 }
 
 .social {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
 }
 
-/* Type */
-h2 {
-    font-size: 2.441rem;
+footer {
+    padding: 1rem 0;
+}
+
+footer h2 {
+    padding: .4rem 0;
+}
+
+footer li {
+    padding: .2rem 1rem;
+}
+
+/*** Type ***/
+section header {
+    font-size: 2rem;
     font-weight: 700;
 }
 
-.skills li {
-    font-weight: 700;
+footer h2 {
+    font-size: 1.4rem;
+}
+
+/*** Color ***/
+body {
+    background-color: #eee;
+}
+
+nav {
+    background-color: #222;
+    color: #fff;
+}
+
+section header {
+    background-color: #333;
+    color: #eee;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
 }
